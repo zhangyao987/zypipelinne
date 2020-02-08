@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  cn.com.zy.ribbon.RibbonAutoConfigure,\
+  cn.com.zy.feign.FeignAutoConfigure

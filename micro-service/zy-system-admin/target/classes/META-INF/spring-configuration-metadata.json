@@ -1,0 +1,17 @@
+{
+  "groups": [
+    {
+      "name": "",
+      "type": "cn.com.zy.admin.properties.SystemAdminProperties",
+      "sourceType": "cn.com.zy.admin.properties.SystemAdminProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "avatar-disk-prefix-path",
+      "type": "java.lang.String",
+      "sourceType": "cn.com.zy.admin.properties.SystemAdminProperties"
+    }
+  ],
+  "hints": []
+}

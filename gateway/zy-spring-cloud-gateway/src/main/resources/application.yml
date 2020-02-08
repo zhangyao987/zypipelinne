@@ -1,0 +1,39 @@
+server:
+  port: 25000
+spring:
+  profiles:
+    active: dev
+  application:
+    name: zy-spring-cloud-gateway
+  cloud:
+    gateway:
+      discovery:
+        enabled: true
+        locator:
+          enabled: true
+          lower-case-service-id: true
+feign:
+  sentinel:
+    enabled: true
+jetcache:
+  statIntervalMinutes: 15
+  areaInCacheName: false
+  local:
+    default:
+      type: linkedhashmap
+      limit: 100
+      keyConvertor: fastjson
+      expireAfterWriteInMillis: 100000
+  remote:
+    default:
+      type: redis.lettuce
+      keyConvertor: fastjson
+      valueEncoder: java
+      valueDecoder: java
+      pattern: base
+zy:
+  jwt:
+    exclude-path-patterns: /admin/auth/captcha,/admin/auth/login
+    gateway-secret: zy.com.cn
+    service-secret: zy.com.cn
+    minutes: 30

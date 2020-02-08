@@ -1,0 +1,6 @@
+org\springframework\cloud\netflix\ribbon\DefaultPropertiesFactory.class
+cn\com\zy\ribbon\RibbonAutoConfigure.class
+cn\com\zy\feign\FeignAutoConfigure$FeignTokenRequestInterceptor.class
+cn\com\zy\feign\FeignAutoConfigure.class
+META-INF\spring-configuration-metadata.json
+cn\com\zy\ribbon\properties\RibbonProperties.class

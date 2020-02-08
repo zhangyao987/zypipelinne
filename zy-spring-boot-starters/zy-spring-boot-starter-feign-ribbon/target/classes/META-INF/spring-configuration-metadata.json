@@ -1,0 +1,11 @@
+{
+  "groups": [
+    {
+      "name": "zy.ribbon",
+      "type": "cn.com.zy.ribbon.properties.RibbonProperties",
+      "sourceType": "cn.com.zy.ribbon.properties.RibbonProperties"
+    }
+  ],
+  "properties": [],
+  "hints": []
+}

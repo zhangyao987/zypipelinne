@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+cn.com.zy.WebAutoConfig,\
+cn.com.zy.MyBatisPlusAutoConfig

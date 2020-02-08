@@ -1,0 +1,42 @@
+{
+  "groups": [
+    {
+      "name": "zy.jwt",
+      "type": "cn.com.zy.util.jwt.JwtProperties",
+      "sourceType": "cn.com.zy.util.jwt.JwtProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "zy.jwt.exclude-path-patterns",
+      "type": "java.lang.String[]",
+      "sourceType": "cn.com.zy.util.jwt.JwtProperties",
+      "defaultValue": [
+        "\/admin\/auth\/captcha",
+        "\/admin\/auth\/login"
+      ]
+    },
+    {
+      "name": "zy.jwt.gateway-secret",
+      "type": "java.lang.String",
+      "description": "网关层 token 秘钥",
+      "sourceType": "cn.com.zy.util.jwt.JwtProperties",
+      "defaultValue": "zy.cn"
+    },
+    {
+      "name": "zy.jwt.minutes",
+      "type": "java.lang.Integer",
+      "description": "token 有效时间",
+      "sourceType": "cn.com.zy.util.jwt.JwtProperties",
+      "defaultValue": 30
+    },
+    {
+      "name": "zy.jwt.service-secret",
+      "type": "java.lang.String",
+      "description": "服务层 token 秘钥",
+      "sourceType": "cn.com.zy.util.jwt.JwtProperties",
+      "defaultValue": "zy.cn"
+    }
+  ],
+  "hints": []
+}

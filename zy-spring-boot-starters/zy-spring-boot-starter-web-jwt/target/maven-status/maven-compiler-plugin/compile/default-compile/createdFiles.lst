@@ -1,0 +1,2 @@
+cn\com\zy\web\JwtInterceptorAutoConfig.class
+cn\com\zy\web\interceptor\JWTInterceptor.class

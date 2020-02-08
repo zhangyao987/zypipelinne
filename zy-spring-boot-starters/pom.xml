@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>zy-pipeline</artifactId>
+        <groupId>com.zy.zyzx</groupId>
+        <version>1.0.0-alpha</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>zy-spring-boot-starters</artifactId>
+
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>zy-spring-boot-starter-feign-ribbon</module>
+        <module>zy-spring-boot-starter-redis</module>
+        <module>zy-spring-boot-starter-sceduler</module>
+        <module>zy-spring-boot-starter-sentinel</module>
+        <module>zy-spring-boot-starter-web</module>
+        <module>zy-spring-boot-starter-web-jwt</module>
+    </modules>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.zy.zyzx</groupId>
+            <artifactId>common-utils</artifactId>
+        </dependency>
+    </dependencies>
+
+
+
+</project>
